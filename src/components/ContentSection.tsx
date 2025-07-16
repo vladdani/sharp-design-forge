@@ -112,10 +112,10 @@ const ContentSection = () => {
           </div>
         </div>
 
-        {/* Bottom section */}
+        {/* Bottom text section */}
         <div className="text-center mt-16 max-w-4xl mx-auto">
           <p className="text-lg text-finto-gray-dark mb-8 leading-relaxed">
-            The intelligent solution for invoice processing. Finto develops custom AI agents that work together 
+            <span className="text-finto-black font-medium">The intelligent solution for invoice processing.</span> Finto develops custom AI agents that work together 
             like a team and serve as exclusive models tailored to your company.
           </p>
           
