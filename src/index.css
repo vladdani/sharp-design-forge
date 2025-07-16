@@ -6,6 +6,25 @@
 All colors MUST be HSL.
 */
 
+/* Finto Design System */
+:root {
+  /* Brand Colors */
+  --finto-orange: 22 100% 60%;
+  --finto-orange-light: 22 100% 70%;
+  --finto-black: 0 0% 0%;
+  --finto-gray-light: 0 0% 96%;
+  --finto-gray-medium: 0 0% 60%;
+  --finto-gray-dark: 0 0% 20%;
+  
+  /* Gradients */
+  --gradient-hero: linear-gradient(135deg, hsl(22 100% 60%), hsl(280 100% 50%), hsl(240 100% 60%));
+  --gradient-section: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(0 0% 98%) 100%);
+  
+  /* Shadows */
+  --shadow-card: 0 4px 20px hsl(0 0% 0% / 0.1);
+  --shadow-button: 0 2px 8px hsl(22 100% 60% / 0.3);
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

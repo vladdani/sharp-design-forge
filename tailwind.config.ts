@@ -61,7 +61,22 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Finto Brand Colors
+				'finto-orange': 'hsl(var(--finto-orange))',
+				'finto-orange-light': 'hsl(var(--finto-orange-light))',
+				'finto-black': 'hsl(var(--finto-black))',
+				'finto-gray-light': 'hsl(var(--finto-gray-light))',
+				'finto-gray-medium': 'hsl(var(--finto-gray-medium))',
+				'finto-gray-dark': 'hsl(var(--finto-gray-dark))'
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-section': 'var(--gradient-section)'
+			},
+			boxShadow: {
+				'card': 'var(--shadow-card)',
+				'button': 'var(--shadow-button)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
