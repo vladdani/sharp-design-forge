@@ -66,17 +66,35 @@ export default {
 				'finto-orange': 'hsl(var(--finto-orange))',
 				'finto-orange-light': 'hsl(var(--finto-orange-light))',
 				'finto-black': 'hsl(var(--finto-black))',
+				'finto-white': 'hsl(var(--finto-white))',
 				'finto-gray-light': 'hsl(var(--finto-gray-light))',
 				'finto-gray-medium': 'hsl(var(--finto-gray-medium))',
-				'finto-gray-dark': 'hsl(var(--finto-gray-dark))'
+				'finto-gray-dark': 'hsl(var(--finto-gray-dark))',
+				'finto-gray': {
+					100: 'hsl(var(--finto-gray-100))',
+					200: 'hsl(var(--finto-gray-200))',
+					300: 'hsl(var(--finto-gray-300))',
+					400: 'hsl(var(--finto-gray-400))',
+					500: 'hsl(var(--finto-gray-500))',
+					600: 'hsl(var(--finto-gray-600))',
+					700: 'hsl(var(--finto-gray-700))',
+					800: 'hsl(var(--finto-gray-800))',
+					900: 'hsl(var(--finto-gray-900))'
+				}
 			},
 			backgroundImage: {
 				'gradient-hero': 'var(--gradient-hero)',
-				'gradient-section': 'var(--gradient-section)'
+				'gradient-section': 'var(--gradient-section)',
+				'gradient-card': 'var(--gradient-card)'
 			},
 			boxShadow: {
 				'card': 'var(--shadow-card)',
-				'button': 'var(--shadow-button)'
+				'button': 'var(--shadow-button)',
+				'subtle': 'var(--shadow-subtle)'
+			},
+			fontFamily: {
+				'heading': 'var(--font-heading)',
+				'body': 'var(--font-body)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

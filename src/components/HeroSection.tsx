@@ -19,24 +19,24 @@ const HeroSection = () => {
         </div>
 
         {/* Main heading */}
-        <div className="text-center max-w-4xl mx-auto mb-8">
-          <h1 className="text-5xl md:text-6xl font-bold text-finto-black leading-tight mb-6">
+        <div className="text-center max-w-5xl mx-auto mb-12">
+          <h1 className="text-5xl md:text-7xl xl:text-8xl font-bold text-finto-black leading-[0.9] mb-8 tracking-tight">
             AI Accounting for
             <br />
             enterprises
           </h1>
           
-          <p className="text-lg text-finto-gray-dark max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-finto-gray-600 max-w-4xl mx-auto leading-relaxed font-normal">
             Finto automates up to 75% of an accountant's workload — invoice verification,
             supplier communication, account assignment, approval, and ERP posting
-            <br />
+            <br className="hidden md:block" />
             in one streamlined step.
           </p>
         </div>
 
         {/* CTA Button */}
         <div className="text-center">
-          <Button className="bg-finto-black text-white hover:bg-finto-gray-dark rounded-lg px-8 py-4 text-lg font-medium shadow-button transition-all duration-200 hover:shadow-lg">
+          <Button className="bg-finto-black text-finto-white hover:bg-finto-gray-800 rounded-xl px-10 py-5 text-lg font-semibold shadow-button transition-all duration-300 hover:shadow-xl hover:scale-105">
             Book a Meeting
           </Button>
         </div>
