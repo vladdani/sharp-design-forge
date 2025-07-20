@@ -4,12 +4,12 @@ const ContentSection = () => {
   return (
     <section className="bg-gradient-section py-24">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 items-center">
           
           {/* Left side - Dashboard mockup */}
-          <div className="relative">
-            <div className="bg-gradient-to-br from-orange-400 via-purple-500 to-blue-600 p-1 rounded-2xl shadow-card">
-              <div className="bg-white rounded-xl p-6">
+          <div className="relative w-full">
+            <div className="bg-gradient-to-br from-orange-400 via-purple-500 to-blue-600 p-1 rounded-2xl shadow-card w-full">
+              <div className="bg-white rounded-xl p-6 w-full">
                 {/* Dashboard header */}
                 <div className="flex items-center justify-between mb-6">
                   <div className="flex items-center space-x-2">
@@ -19,7 +19,7 @@ const ContentSection = () => {
                       <div className="bg-finto-orange rounded-sm"></div>
                       <div className="bg-white rounded-sm"></div>
                     </div>
-                    <span className="font-semibold text-finto-black">Finto</span>
+                    <span className="font-semibold text-finto-black">Floucast</span>
                   </div>
                 </div>
 
@@ -81,8 +81,8 @@ const ContentSection = () => {
           </div>
 
           {/* Right side - Video */}
-          <div className="relative">
-            <div className="bg-black rounded-2xl overflow-hidden shadow-card aspect-video">
+          <div className="relative w-full">
+            <div className="bg-black rounded-2xl overflow-hidden shadow-card aspect-video w-full">
               <div className="relative w-full h-full bg-gradient-to-br from-purple-900 via-purple-700 to-purple-500 flex items-center justify-center">
                 {/* Finto logo in video */}
                 <div className="text-center">
@@ -93,14 +93,14 @@ const ContentSection = () => {
                       <div className="bg-finto-orange rounded-sm"></div>
                       <div className="bg-black rounded-sm"></div>
                     </div>
-                    <span className="text-white text-2xl font-bold">finto.</span>
+                    <span className="text-white text-2xl font-bold">floucast.</span>
                   </div>
                   
                   <h3 className="text-white text-xl font-semibold mb-2">
                     AI Accounting for enterprises
                   </h3>
                   
-                  <p className="text-white/80 text-sm mb-6">www.gofinto.com</p>
+                  <p className="text-white/80 text-sm mb-6">www.gofloucast.com</p>
                   
                   {/* Play button */}
                   <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center cursor-pointer hover:bg-red-700 transition-colors">
@@ -115,11 +115,11 @@ const ContentSection = () => {
         {/* Bottom text section */}
         <div className="text-center mt-16 max-w-4xl mx-auto">
           <p className="text-lg text-finto-gray-dark mb-8 leading-relaxed">
-            <span className="text-finto-black font-medium">The intelligent solution for invoice processing.</span> Finto develops custom AI agents that work together 
+            <span className="text-finto-black font-medium">The intelligent solution for invoice processing.</span> Floucast develops custom AI agents that work together 
             like a team and serve as exclusive models tailored to your company.
           </p>
           
-          <Button className="bg-finto-black text-white hover:bg-finto-gray-dark rounded-lg px-8 py-4 text-lg font-medium shadow-button transition-all duration-200 hover:shadow-lg">
+          <Button className="bg-finto-black text-white hover:bg-finto-gray-dark rounded-full px-8 py-4 text-lg font-medium shadow-button transition-colors duration-200">
             Book a Demo
           </Button>
         </div>

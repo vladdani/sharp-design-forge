@@ -5,12 +5,12 @@ const FeaturesSection = () => {
     <section className="bg-white py-24">
       <div className="max-w-7xl mx-auto px-6">
         {/* Features Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-24">
+        <div className="grid lg:grid-cols-2 gap-12 mb-24">
           
           {/* Inbox & Communication */}
-          <div className="space-y-8">
+          <div className="space-y-12">
             <div className="relative">
-              <div className="bg-finto-gray-light rounded-2xl p-8 h-96 flex items-center justify-center">
+              <div className="bg-finto-gray-light rounded-2xl p-12 h-96 flex items-center justify-center">
                 {/* Left sidebar with colorful tiles */}
                 <div className="absolute left-8 top-8 space-y-2">
                   <div className="grid grid-cols-4 gap-1 w-32">
@@ -78,22 +78,22 @@ const FeaturesSection = () => {
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-finto-black mb-4">
+              <h3 className="text-2xl font-semibold text-finto-black mb-6">
                 Inbox Management.
               </h3>
-              <p className="text-finto-gray-dark leading-relaxed mb-6">
+              <p className="text-finto-gray-dark leading-relaxed mb-8 text-base">
                 Record all incoming documents, capture any invoice formats, including PDF, scan, XML, or ZUGFeRD, and enable automated communication with vendors.
               </p>
-              <Button variant="outline" className="border-finto-gray-medium text-finto-black hover:bg-finto-gray-light">
+              <Button className="bg-finto-gray-200 hover:bg-finto-gray-300 text-finto-black rounded-xl px-8 py-4 font-medium transition-colors text-base">
                 Start Now
               </Button>
             </div>
           </div>
 
           {/* Readout & Review */}
-          <div className="space-y-8">
+          <div className="space-y-12">
             <div className="relative">
-              <div className="bg-finto-gray-light rounded-2xl p-8 h-96 flex items-center justify-center">
+              <div className="bg-finto-gray-light rounded-2xl p-12 h-96 flex items-center justify-center">
                 {/* Document preview */}
                 <div className="bg-white rounded-lg shadow-lg p-6 max-w-sm mx-auto">
                   <div className="text-xs text-finto-gray-medium mb-2">VOLKSWAGEN LEASING</div>
@@ -152,13 +152,13 @@ const FeaturesSection = () => {
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-finto-black mb-4">
+              <h3 className="text-2xl font-semibold text-finto-black mb-6">
                 Invoice Review.
               </h3>
-              <p className="text-finto-gray-dark leading-relaxed mb-6">
+              <p className="text-finto-gray-dark leading-relaxed mb-8 text-base">
                 Read out invoices with an accuracy rate of over 99% at both document and article levels and run automated compliance, tax and fraud checks.
               </p>
-              <Button variant="outline" className="border-finto-gray-medium text-finto-black hover:bg-finto-gray-light">
+              <Button className="bg-finto-gray-200 hover:bg-finto-gray-300 text-finto-black rounded-xl px-8 py-4 font-medium transition-colors text-base">
                 Start Now
               </Button>
             </div>

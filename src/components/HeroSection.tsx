@@ -20,7 +20,7 @@ const HeroSection = () => {
 
         {/* Main heading */}
         <div className="text-center max-w-5xl mx-auto mb-12">
-          <h1 className="text-5xl md:text-7xl xl:text-8xl font-bold text-finto-black leading-[0.9] mb-8 tracking-tight">
+          <h1 className="text-6xl md:text-7xl xl:text-8xl font-normal text-finto-black leading-[0.9] mb-8 tracking-tight font-light">
             AI Accounting for
             <br />
             enterprises
@@ -36,7 +36,7 @@ const HeroSection = () => {
 
         {/* CTA Button */}
         <div className="text-center">
-          <Button className="bg-finto-black text-finto-white hover:bg-finto-gray-800 rounded-xl px-10 py-5 text-lg font-semibold shadow-button transition-all duration-300 hover:shadow-xl hover:scale-105">
+          <Button className="bg-finto-black text-finto-white hover:bg-finto-gray-800 rounded-full px-10 py-4 text-lg font-semibold shadow-button transition-colors duration-200">
             Book a Meeting
           </Button>
         </div>
